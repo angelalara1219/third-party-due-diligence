@@ -1,0 +1,11 @@
+id,name,type,country,owners,government_ties,interacts_with_officials,services,commission_pct,payment_country,contract_value_usd,other_red_flags
+TP-001,Lion City Ad Partners Pte Ltd,Reseller,Singapore,Mei Ling Tan; Daniel Koh,No,No,Resells ad inventory to Singapore and Malaysia advertisers,12,Singapore,180000,
+TP-002,Harbour Bridge Media Group,Reseller,Hong Kong,Wei Zhang; Li Na Chen,Yes - co-owner's spouse works at a provincial commerce bureau,Yes,Reaches Greater China advertisers,24,British Virgin Islands,950000,Asked for commission to be paid to an offshore account
+TP-003,Sao Paulo Creative Agency Ltda,Marketing agency,Brazil,Rafael Souza,No,Yes,Local campaigns; liaises with the advertising regulator on licenses,15,Brazil,320000,
+TP-004,Cloudline Data Services Inc,Vendor,United States,Publicly traded,No,No,Data storage,0,United States,600000,
+TP-005,Greenleaf General Trading LLC,Logistics partner,United Arab Emirates,Omar Haddad,No,No,Ships marketing materials to Middle East events,8,United Arab Emirates,75000,
+TP-006,Caribe Media Services,Content vendor,Cuba,Unknown,Unknown,No,Video production,10,Panama,40000,
+TP-007,Dublin Brightwork Consulting,Consultant,Ireland,Aoife Byrne,No,No,EU go-to-market advisory,0,Ireland,90000,
+TP-008,Anatolia Digital Reklam,Reseller,Turkey,Mehmet Yilmaz,No,No,Resells ad inventory in Turkey,18,United Arab Emirates,210000,
+TP-009,Lagos Public Affairs Associates,Consultant,Nigeria,Chinedu Okafor,Yes - former senior official at the communications regulator,Yes,Government relations; recommended by a ministry official,20,Nigeria,150000,Wants a success fee tied to a license approval
+TP-010,Sakura Annotation KK,Vendor,Japan,Hiroshi Tanaka,No,No,Image labeling for model training,0,Japan,130000,

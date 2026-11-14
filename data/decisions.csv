@@ -1,0 +1,3 @@
+id,decision,reviewer,decided_on,cleared_matches,rationale
+TP-002,Sanctions match cleared as a false positive; anti-bribery review still open,A. Lara,2026-11-14,US OFAC SDN #45391,"Owner Wei Zhang is a common name. Date of birth, nationality and address on the owner's ID don't match the listed person, so the match was cleared and documented. The third party stays High risk for the anti-bribery red flags."
+TP-003,Approved with conditions,A. Lara,2026-11-14,,"Regulator contact limited to written filings; anti-bribery training and audit rights added to the contract; annual refresh."

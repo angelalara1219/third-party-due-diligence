@@ -1,0 +1,46 @@
+name: Weekday third-party re-screen
+
+on:
+  schedule:
+    # Weekdays, 15:37 UTC (8:37 a.m. Arizona), after sanctions-list-tracker updates
+    - cron: "37 15 * * 1-5"
+  push:
+    paths:
+      - "data/**"
+      - "dd/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rescreen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Re-screen third parties
+        run: python -m dd
+
+      - name: Commit results
+        run: |
+          git add reports README.md
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Re-screen $(date -u +%Y-%m-%d)"
+          git push
