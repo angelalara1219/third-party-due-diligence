@@ -13,7 +13,7 @@ This tool does that for a list of third parties and re-screens all of them every
 ## Current results
 
 <!-- RESULTS:START -->
-_Last screened 2026-11-14._
+_Last screened 2026-11-16._
 
 | ID | Third party | Country | Tier | Points | Status |
 |---|---|---|---|---|---|
