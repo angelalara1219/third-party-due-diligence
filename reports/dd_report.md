@@ -1,6 +1,6 @@
 # Third-party due diligence report
 
-Screened on 2026-11-20 against 31,075 listed names from the US, UK, Australian and UN sanctions lists. All third parties are synthetic.
+Screened on 2026-11-24 against 31,110 listed names from the US, UK, Australian and UN sanctions lists. All third parties are synthetic.
 
 | ID | Third party | Country | Tier | Points | Status |
 |---|---|---|---|---|---|
